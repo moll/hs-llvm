@@ -16,7 +16,4 @@ data RMWOperation
   | Min
   | UMax
   | UMin
-  | FAdd
-  | FSub
   deriving (Eq, Ord, Read, Show, Data, Typeable, Generic)
-
