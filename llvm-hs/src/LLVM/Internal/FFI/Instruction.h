@@ -23,9 +23,7 @@
     macro(Max) \
     macro(Min) \
     macro(UMax) \
-    macro(UMin) \
-    macro(FAdd) \
-    macro(FSub)
+    macro(UMin)
 
 typedef enum {
 #define ENUM_CASE(x) LLVMAtomicRMWBinOp_ ## x,
